@@ -227,7 +227,7 @@ class test:
     #셀프는 인스턴스 자체를 인자로 받는다는 뜻. 꼭 self 아니어도 됨
     def __init__(self):
         self.result=0
-        
+
     def add(self,a,b):
         #a,b를 인자로 받는다는 뜻. self는 인스턴스를 지칭
         self.a=a
@@ -241,3 +241,5 @@ a=test()
 a.add(1,2)
 
 print(a.a+a.b)
+
+##젠킨스 연동 완료, 푸시 웹훅 테스트
