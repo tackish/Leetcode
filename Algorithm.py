@@ -219,3 +219,25 @@ def seq_search(data,search):
     return False
 
 print(seq_search(data_list,30)," 찾는값(seq) : 30")
+
+
+## 클래스 연습
+
+class test:
+    #셀프는 인스턴스 자체를 인자로 받는다는 뜻. 꼭 self 아니어도 됨
+    def __init__(self):
+        self.result=0
+        
+    def add(self,a,b):
+        #a,b를 인자로 받는다는 뜻. self는 인스턴스를 지칭
+        self.a=a
+        self.b=b
+
+        return a+b
+
+
+a=test()
+
+a.add(1,2)
+
+print(a.a+a.b)
