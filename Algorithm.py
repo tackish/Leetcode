@@ -219,3 +219,15 @@ def seq_search(data,search):
     return False
 
 print(seq_search(data_list,30)," 찾는값(seq) : 30")
+
+
+#아래부터는 새로운 환경 설정 구성 
+# class 테스트
+
+
+class Test:
+    def __init__(self, a,b):
+        self.a=a
+        self.b=b
+
+
